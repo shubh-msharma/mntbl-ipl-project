@@ -9,7 +9,7 @@ const economicalBowlers = require('./utility/economicalBowlers')
 const csvtojsonConverter  = require('./utility/csvtojsonConverter')
 
 const app = express();
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3002
 
 async function getData(){
     const matches = await csvtojsonConverter('matches.csv');
